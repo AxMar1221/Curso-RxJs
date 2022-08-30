@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ObservablesComponent } from './components/observables/observables.component';
 import { IntervalTimerComponent } from './components/interval-timer/interval-timer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FromeventComponent } from './components/fromevent/fromevent.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HomeComponent,
     ObservablesComponent,
     IntervalTimerComponent,
-    NavbarComponent
+    NavbarComponent,
+    FromeventComponent
   ],
   imports: [
     BrowserModule,
