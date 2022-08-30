@@ -11,6 +11,7 @@ import { ObservablesComponent } from './components/observables/observables.compo
 import { IntervalTimerComponent } from './components/interval-timer/interval-timer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FromeventComponent } from './components/fromevent/fromevent.component';
+import { MapfilterComponent } from './components/mapfilter/mapfilter.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FromeventComponent } from './components/fromevent/fromevent.component';
     ObservablesComponent,
     IntervalTimerComponent,
     NavbarComponent,
-    FromeventComponent
+    FromeventComponent,
+    MapfilterComponent
   ],
   imports: [
     BrowserModule,
