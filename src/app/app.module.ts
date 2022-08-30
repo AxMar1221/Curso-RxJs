@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ObservablesComponent } from './components/observables/observables.component';
 import { IntervalTimerComponent } from './components/interval-timer/interval-timer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { IntervalTimerComponent } from './components/interval-timer/interval-tim
     AppComponent,
     HomeComponent,
     ObservablesComponent,
-    IntervalTimerComponent
+    IntervalTimerComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
