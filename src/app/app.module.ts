@@ -8,13 +8,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ObservablesComponent } from './components/observables/observables.component';
+import { IntervalTimerComponent } from './components/interval-timer/interval-timer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ObservablesComponent
+    ObservablesComponent,
+    IntervalTimerComponent
   ],
   imports: [
     BrowserModule,
