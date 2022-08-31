@@ -5,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { IntervalTimerComponent } from './components/interval-timer/interval-timer.component';
 import { MapfilterComponent } from './components/mapfilter/mapfilter.component';
 import { ObservablesComponent } from './components/observables/observables.component';
+import { TapComponent } from './components/tap/tap.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'inter-timer', component: IntervalTimerComponent},
   { path: 'fromevent', component: FromeventComponent},
   { path: 'mapfilter', component: MapfilterComponent},
+  { path: 'tap', component: TapComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 
